@@ -2,11 +2,12 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             "http://renanccastro.github.io/developers-blog/"
+title:               devBready
+tagline:             Continuous learning
+url:                 http://devbready.tk
+paginate:            3
+baseurl:             "http://devbready.tk"
+excerpt_separator:   "<!---excerpt-break-->"
 
 # Assets
 #
@@ -17,14 +18,14 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Renan Castro
+  url:               https://github.com/renanccastro
+  email:             renanccastro@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/
 
 # Gems
 gems:

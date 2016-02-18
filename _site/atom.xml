@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Poole</title>
- <link href="http://getpoole.comhttp://renanccastro.github.io/developers-blog//atom.xml" rel="self"/>
- <link href="http://getpoole.comhttp://renanccastro.github.io/developers-blog//"/>
- <updated>2016-02-18T00:31:16-02:00</updated>
- <id>http://getpoole.com</id>
+ <title>devBready</title>
+ <link href="http://devbready.tk/atom.xml" rel="self"/>
+ <link href="http://devbready.tk/"/>
+ <updated>2016-02-18T02:54:31-02:00</updated>
+ <id>http://devbready.tk</id>
  <author>
-   <name>Mark Otto</name>
-   <email>markdotto@gmail.com</email>
+   <name>Renan Castro</name>
+   <email>renanccastro@gmail.com</email>
  </author>
 
  
  <entry>
    <title>Introduction</title>
-   <link href="http://getpoole.comhttp://renanccastro.github.io/developers-blog//2016/01/03/introduction/"/>
+   <link href="http://devbready.tk/2016/01/03/introduction/"/>
    <updated>2016-01-03T00:00:00-02:00</updated>
-   <id>http://getpoole.com/2016/01/03/introduction</id>
+   <id>http://devbready.tk/2016/01/03/introduction</id>
    <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jekyll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -31,14 +31,16 @@
   &lt;li&gt;&lt;a href=&quot;http://enfield.getpoole.com&quot;&gt;Enfield&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Learn more and contribute on &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Learn more and contribute on &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!---excerpt-break--&gt;
 
 &lt;h3 id=&quot;whats-included&quot;&gt;What’s included&lt;/h3&gt;
 
 &lt;p&gt;Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;http://renanccastro.github.io/developers-blog//404.html&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;http://renanccastro.github.io/developers-blog//atom.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;http://renanccastro.github.io/developers-blog//about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404.html&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/atom.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
   &lt;li&gt;Easily scalable text and component sizing with &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
   &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
@@ -54,7 +56,7 @@
 
 &lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
 
-&lt;p&gt;These themes are developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
+&lt;p&gt;These themes are developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
 
 &lt;p&gt;Thanks!&lt;/p&gt;
 </content>
@@ -62,9 +64,9 @@
  
  <entry>
    <title>Example content</title>
-   <link href="http://getpoole.comhttp://renanccastro.github.io/developers-blog//2016/01/02/example-content/"/>
+   <link href="http://devbready.tk/2016/01/02/example-content/"/>
    <updated>2016-01-02T00:00:00-02:00</updated>
-   <id>http://getpoole.com/2016/01/02/example-content</id>
+   <id>http://devbready.tk/2016/01/02/example-content</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
@@ -80,6 +82,8 @@
 &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt;
 
 &lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!---excerpt-break--&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
@@ -255,10 +259,12 @@
  
  <entry>
    <title>What&#39;s Jekyll?</title>
-   <link href="http://getpoole.comhttp://renanccastro.github.io/developers-blog//2016/01/01/whats-jekyll/"/>
+   <link href="http://devbready.tk/2016/01/01/whats-jekyll/"/>
    <updated>2016-01-01T00:00:00-02:00</updated>
-   <id>http://getpoole.com/2016/01/01/whats-jekyll</id>
+   <id>http://devbready.tk/2016/01/01/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+
+&lt;!---excerpt-break--&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;

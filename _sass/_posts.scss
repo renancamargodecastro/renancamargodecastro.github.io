@@ -3,6 +3,10 @@
 // Each post is wrapped in `.post` and is used on default and post layouts. Each
 // page is wrapped in `.page` and is only used on the page layout.
 
+.posts {
+  margin-bottom: 3rem;
+  border-bottom: 3px solid black;
+}
 .page,
 .post {
   margin-bottom: 4em;
@@ -39,6 +43,27 @@
   margin-bottom: 2rem;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
+}
+
+// Related posts
+.about-aside {
+  padding-top: 1em;
+  border-top: 1px solid #eee;
+  overflow:auto;
+  font-size: 80%;
+  color: gray;
+}
+.image-about {
+  float:left;
+  margin-right: 1em;
+}
+.text-about {
+  padding-left: 1em;
+  margin-left: 1em;
+}
+.sized-120x120-photo {
+  width: 5rem;
+  height: 5rem;
 }
 
 .related-posts {

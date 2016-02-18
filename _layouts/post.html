@@ -8,9 +8,19 @@ layout: default
   {{ content }}
 </article>
 
+<aside class="about-aside">
+  <div class="image-about">
+    <img class="sized-120x120-photo" src="{{ site.baseurl }}/public/photo.png" title="Renan's Photo" />
+  </div>
+  <div class="text-about" style="height: 100%;">
+    <b>Renan Camargo de Castro</b>
+    <p>I'm always willing to try or make something new. Current working with Meteor, Java, iOS, Android. Technology is god's gift to humanity and should really be more useful and friendly. In eternal love with my wife.</p>
+  </div>
+</aside>
+
 {% if site.related_posts != empty %}
 <aside class="related">
-  <h3>Related posts</h3>
+  <h3>Recent Posts</h3>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
@@ -21,5 +31,32 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+</aside>
+{% endif %}
+
+{% if page.comments %}
+<aside class="disqus-aside">
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+    * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+
+    s.src = '//devbready.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </aside>
 {% endif %}
