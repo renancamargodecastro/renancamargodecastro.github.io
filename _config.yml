@@ -2,11 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               devBready
+title:               renanccastro
 tagline:             Continuous learning
-url:                 http://devbready.tk
+url:                 http://renanccastro.tk
 paginate:            3
-baseurl:             "http://devbready.tk"
+baseurl:             "http://renanccastro.tk"
 excerpt_separator:   "<!---excerpt-break-->"
 
 # Assets
